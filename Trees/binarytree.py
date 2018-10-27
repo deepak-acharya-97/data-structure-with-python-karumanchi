@@ -1,11 +1,8 @@
 class BinaryTreeNode:
-    def __init__(self, data):
+    def __init__(self, data=None):
         self.data = data
         self.left = None
         self.right = None
-
-    def __init__(self):
-        self.data = self.left = self.right =None
 
     def setData(self, data):
         self.data = data
